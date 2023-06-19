@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --footerBG: #f7f7f7;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.footer {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--footerBG);
+}
+
+.noDataRow {
+  height: 16rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ui.table {
+  overflow: auto;
+}
+.tableContainer {
+  overflow-x: scroll;
+}
